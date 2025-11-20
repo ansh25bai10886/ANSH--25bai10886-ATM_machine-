@@ -1,0 +1,92 @@
+Project Report: Simple ATM Machine (Python)
+
+Name: Ansh Sonkar
+Roll No: 25BAI10886
+Course: Vityarthi – Flipped Course Project
+
+
+1. Introduction
+
+For this project, I made a small ATM program in Python
+The main purpose was to practice how functions, loops and basic logic work together in a simple application. The user can create an account, log in with a PIN and then use options like deposit, withdraw and checking balance.
+
+2. Objective
+
+My goal was to build something simple but useful so I can understand:
+
+how to take input from the user,
+
+how to store data in a dictionary,
+
+how to create a menu-based program,
+
+and how different functions connect with each other.
+
+3. Tools Used
+
+I only used Python 3.
+No external libraries were required
+
+4. How the System Works
+
+When the program starts, the user sees a small main menu with three options:
+
+1. Create a new account
+
+
+2. Login
+
+
+3. Exit
+
+
+
+Account Storage
+
+All accounts are saved inside a dictionary called accounts.
+Each account simply stores two things:
+
+the PIN
+
+the current balance
+
+
+Example:
+"1010": {"pin": "1234", "balance": 500}
+
+ATM Menu
+
+After login, the user gets these options:
+
+Deposit
+
+Withdraw
+
+Check balance
+
+Logout
+
+
+Each option runs through its own function to keep things neat
+
+5. Functions in the Program
+
+create_account() – makes a new account with PIN
+
+login() – checks account number and PIN
+
+deposit() – adds amount to balance
+
+withdraw() – subtracts amount if balance is enough
+
+check_balance() – shows the balance
+
+atm_menu() – handles all inside-ATM options
+
+main() – the starting point of the whole program
+
+6. Program Flow
+
+The user chooses an option from the main menu.
+
+If they create an
